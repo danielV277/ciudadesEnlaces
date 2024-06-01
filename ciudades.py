@@ -64,10 +64,9 @@ def mostrarCarreterras(cam = [], cams=[]):
     camino = cam
     caminos = cams
     for key in ciCopia.keys():
-        camino.append()
+        camino.append(key)
         for subKey in ciCopia[key].keys():
             del(ciCopia[subKey][key])
-
     
     return ciCopia
 
