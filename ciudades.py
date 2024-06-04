@@ -156,20 +156,21 @@ def caminoMasCorto(ciudad1,ciudad2):
     return respuesta 
     
 
-agregarCiudad('A')
-agregarCiudad('B')
-agregarCiudad('C')
-agregarCiudad('D')
-agregarCiudad('E')
-agregarCiudad('F')
-agregarEnlace('A','B',9)
-agregarEnlace('B','C',5)
-agregarEnlace('C','D',1)
-agregarEnlace('D','B',4)
-agregarEnlace('D','A',2)
-agregarEnlace('A','E',1)
-agregarEnlace('E','F',2)
+# PRUEBAS
+# agregarCiudad('A')
+# agregarCiudad('B')
+# agregarCiudad('C')
+# agregarCiudad('D')
+# agregarCiudad('E')
+# agregarCiudad('F')
+# agregarEnlace('A','B',9)
+# agregarEnlace('B','C',5)
+# agregarEnlace('C','D',1)
+# agregarEnlace('D','B',4)
+# agregarEnlace('D','A',2)
+# agregarEnlace('A','E',1)
+# agregarEnlace('E','F',2)
 
-print(ciudades)
-print(caminoMasCorto('B','F'))
+# print(ciudades)
+# print(caminoMasCorto('B','F'))
 
